@@ -1,0 +1,44 @@
+/* type selector */
+h1,h2{
+  color: aquamarine;
+}
+
+h1{
+  color: brown;
+}
+/* universal selector */
+*{
+  color: orange;
+}
+
+/* id selector */
+#softdev{
+  color: green;
+}
+/* class selector */
+.greentext{
+  color: rgb(229, 115, 134);
+}
+
+/* child selector */
+div>p{
+color: black;
+}
+
+/* descendant selector */
+div a{
+  color: rgb(13, 243, 13);
+}
+
+/* sibling selector */
+h1~h4{
+  color: blueviolet;
+}
+
+/* adjacent sibling selector */
+h1+h2{
+  color:black !important ;
+}
+h3{
+  color: blue;
+}
